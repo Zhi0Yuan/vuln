@@ -1,5 +1,6 @@
 Tenda W15E V1 A vulnerability of buffer overflow exists，This vulnerability is the same as CVE-2022-45721！
 
+V15.11.0.14
 
 Download
 https://www.tenda.com.cn/download/detail-2722.html
