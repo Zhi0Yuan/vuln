@@ -11,7 +11,7 @@ https://www.tenda.com.cn/download/detail-2722.html
 
 No filtering has been applied to the picName parameter，Buffer overflow vulnerability caused by sprintf function.
 
-# Exploit Title:
+## Exploit Title:
 
 Tenda V15EV1.0 found a buffer overflow vulnerability in the "index" parameter of the "formDelDnsForward" function
 
