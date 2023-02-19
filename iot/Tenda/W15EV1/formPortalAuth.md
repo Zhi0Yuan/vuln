@@ -24,7 +24,7 @@
 
 The vulnerability is in the `"formPortalAuth"` function in the `/bin/httpd` file
 
-​	[Pic]
+​	![image](https://user-images.githubusercontent.com/76503635/219950225-efcf3efb-af7c-4e7b-a65a-072a3f2cd60d.png)
 
 `"gotoUrl"` receives the transmitted parameters, does not verify its length. causes a buffer overflow vulnerability due to the use of `strcpy()`
 
@@ -49,10 +49,8 @@ gotoUrl=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 Start httpd using qemu
 
-[Pic]
+![image](https://user-images.githubusercontent.com/76503635/219950355-31e5c23b-fe61-4cb7-ac91-bd55b91b3f64.png)
+![image](https://user-images.githubusercontent.com/76503635/219950586-e275beaa-353b-443f-9d84-2fb5e519da2e.png)
+
 
 DOS caused by sending request
-
-[Pic]
-
-And overwrite the return address, an execute arbitrary commands by constructing EXP
