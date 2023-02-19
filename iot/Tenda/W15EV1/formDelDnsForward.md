@@ -24,7 +24,7 @@
 
 The vulnerability is in the `"formDelDnsForward"` function in the `/bin/httpd` file
 
-​	[Pic]
+​	![image](https://user-images.githubusercontent.com/76503635/219949336-768ea771-c5ec-49d8-b60a-cc3f28cf8e98.png)
 
 `"indexSet"` receives the transmitted parameters, does not verify its length. causes a buffer overflow vulnerability due to the use of `strcpy()`
 
@@ -49,10 +49,12 @@ index=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 Start httpd using qemu
 
-[Pic]
+![image](https://user-images.githubusercontent.com/76503635/219949543-bdff9486-c99c-466e-9420-c07f21a6d6d7.png)
+![image](https://user-images.githubusercontent.com/76503635/219949602-a3d017cd-26e3-44a6-b32d-eb92eeb615c3.png)
+
 
 DOS caused by sending request
 
-[Pic]
+![image](https://user-images.githubusercontent.com/76503635/219949731-d30c150d-36ac-417d-a774-63c7eed1c75e.png)
 
 And overwrite the return address, an execute arbitrary commands by constructing EXP
