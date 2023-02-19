@@ -13,39 +13,27 @@ No filtering has been applied to the picName parameter，Buffer overflow vulnera
 
 # Exploit Title:
 
-```
 Tenda V15EV1.0 found a buffer overflow vulnerability in the "index" parameter of the "formDelDnsForward" function
-```
 
 ### Vendor:
 
-```
-Tenda
-```
+​	Tenda
 
 ### Product:
 
-```
-V15EV1.0
-```
+​	V15EV1.0
 
 ### Vendor Homepage:
 
-```
 https://www.tenda.com.cn/
-```
 
 ### Firmware:
 
-```
 https://www.tenda.com.cn/download/detail-2722.html
-```
 
 ### Version:
 
-```
 V15.11.0.14(1521_3190_1058)
-```
 
 
 
