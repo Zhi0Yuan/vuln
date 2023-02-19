@@ -24,7 +24,7 @@
 
 The vulnerability is in the `"formDelWewifiPic"` function in the `/bin/httpd` file
 
-​	[Pic]
+​	![image](https://user-images.githubusercontent.com/76503635/219949947-d69ac146-259f-4b2e-ba89-1d2e7a9ce989.png)
 
 `"picName"` receives the transmitted parameters, does not verify its length. causes a buffer overflow vulnerability due to the use of `sprintf()`
 
@@ -49,6 +49,8 @@ picName=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 Start httpd using qemu
 
-[Pic]
+![image](https://user-images.githubusercontent.com/76503635/219950069-7ca3fad2-0543-4acd-b6f0-656bbc8604ae.png)
+![image](https://user-images.githubusercontent.com/76503635/219950090-329130eb-60d6-4b49-91ca-1cbcb7ee4d26.png)
+
 
 DOS caused by sending request
